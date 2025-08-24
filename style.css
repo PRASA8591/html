@@ -1,0 +1,60 @@
+/* General Body */
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #4e54c8, #8f94fb);
+  color: #fff;
+  text-align: center;
+}
+
+/* Header */
+h1 {
+  margin-top: 50px;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Navigation Bar */
+nav {
+  margin: 30px 0;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 15px;
+  border-radius: 12px;
+  display: inline-block;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 18px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 8px 15px;
+  border-radius: 8px;
+  transition: 0.3s ease;
+}
+
+nav a:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: #ffe66d;
+  transform: scale(1.05);
+}
+
+/* Paragraph */
+p {
+  font-size: 1.1rem;
+  margin-top: 30px;
+  line-height: 1.6;
+}
+
+/* Footer (Optional) */
+footer {
+  position: fixed;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.6);
+}
